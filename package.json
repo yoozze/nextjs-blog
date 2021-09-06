@@ -6,7 +6,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "export": "next build && next export",
+        "export": "next build && next export && touch out/.nojekyll",
         "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
         "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx}",
         "format": "prettier --write src/**/*.{js,jsx,ts,tsx,json,md,scss}"
