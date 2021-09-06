@@ -12,7 +12,7 @@ export interface LayoutProps {
     home?: boolean;
 }
 
-const name = 'Your Name';
+const name = 'My Name';
 export const siteTitle = 'Next.js Sample Website';
 
 function Layout({ children, home }: LayoutProps): JSX.Element {
