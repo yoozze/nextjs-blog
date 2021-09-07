@@ -15,6 +15,7 @@
         "classnames": "^2.3.1",
         "date-fns": "^2.23.0",
         "gray-matter": "^4.0.3",
+        "netlify-cms-app": "^2.15.40",
         "next": "11.1.2",
         "react": "17.0.2",
         "react-dom": "17.0.2",
@@ -34,6 +35,7 @@
         "eslint-plugin-jsx-a11y": "^6.4.1",
         "eslint-plugin-react": "^7.25.1",
         "eslint-plugin-react-hooks": "^4.2.0",
+        "frontmatter-markdown-loader": "^3.6.3",
         "prettier": "^2.3.2",
         "sass": "^1.38.2",
         "typescript": "^4.4.2"
