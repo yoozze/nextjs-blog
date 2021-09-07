@@ -4,7 +4,9 @@ const config = {
         name: 'github',
         repo: 'yoozze/nextjs-blog',
         branch: 'main',
+        site_domain: 'clever-shaw-25ce4e.netlify.com'
     },
+    local_backend: true,
     media_folder: 'public/images',
     public_folder: 'images',
     collections: [
