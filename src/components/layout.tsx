@@ -19,7 +19,7 @@ function Layout({ children, home }: LayoutProps): JSX.Element {
     return (
         <div className={styles.container}>
             <Head>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/favicon.ico`} />
                 <meta
                     name="description"
                     content="Learn how to build a personal website using Next.js"
