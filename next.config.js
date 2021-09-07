@@ -1,10 +1,7 @@
-const isProd = process.env.NODE_ENV === 'production';
+const basePath = process.env.BASE_PATH;
 
 module.exports = {
     reactStrictMode: true,
-    basePath: isProd ? '/nextjs-blog' : '',
-    assetPrefix: isProd ? '/nextjs-blog/' : '',
-    env: {
-        BASE_PATH: isProd ? '/nextjs-blog' : '',
-    },
+    basePath: basePath || '',
+    assetPrefix: basePath ? `${basePath}/` : '',
 };
